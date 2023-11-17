@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import "~animate.css/animate.css";
+ @import 'attention_seekers/shake.css';
+ *{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   scroll-behavior: smooth;
+   font-family: 'Roboto', sans-serif !important;
+}
+nav:hover{
+   animation-name: pulse;
+   animation-timing-function: ease;
+}
+
+img[class="col-4 col-md-6 img-fluid animate__animated"]:hover{
+   animation-name: headShake;
+}
+
+.card:hover{
+      animation-name: pulse;
+      animation-timing-function: ease;
+}
+
+h1[class="text-uppercase fw-bolder"]{
+   font-size: 3rem;
+}
+button[class="btn btn-primary rounded animate__animated"]:hover{
+   animation-name: pulse;
+   animation-timing-function: ease;
+}
+img[class="img-fluid animate__animated animate__zoomIn"]{
+   box-shadow: 10px 5px 0px 0px rgb(56, 56, 255);
+   border-radius: 25px;
+   /* border: 2px solid black; */
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   -ms-border-radius: 25px;
+   -o-border-radius: 25px;
+}
+
+.landing-page{
+   height: 500px;
+}
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 10px;
+   border-radius: 25%;
+   -webkit-border-radius: 25%;
+   -moz-border-radius: 25%;
+   -ms-border-radius: 25%;
+   -o-border-radius: 25%;
+}
+ .fa:hover {
+     opacity: 0.7;
+ }
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+ .fa-instagram {
+   background: #125688;
+   color: white;
+ }
+ .fa-skype {
+   background: #00aff0;
+   color: white;
+ }
+ .fa-github{
+   background: #ff6600;
+   color: white;
+ }
